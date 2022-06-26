@@ -1,0 +1,18 @@
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Patskorn/GUI/main/Daino.lua"))()
+local Agnar = GUI:new()
+
+-- credits
+local win = Agnar:Tap("MAIN")
+win:Label("Agnar HUB | Da Hood")
+win:Label("Script made by")
+win:Label("Luki#8505")
+win:Label("This is label")
+win:Button("Click if cool (Check F9)",function()
+    print("You are cool :)")
+end)
+
+-- main
+local win = Agnar:Tap("AGNAR HUB")
+win:Button("Autofarm",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/imlukii/Autofarm/main/DaHood"))()
+end)
